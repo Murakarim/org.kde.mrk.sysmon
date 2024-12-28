@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "martin.yrjola@gmail.com, matthew@mjdsystems.ca",
+                "Name": "Martin Yrjölä, Matthew Dawson"
+            }
+        ],
+        "Category": "System Information",
+        "Dependencies": [
+        ],
+        "Description": "Tiny CPU/RAM/Swap monitor",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "view-statistics",
+        "Id": "org.kde.mrk.sysmon",
+        "License": "GPL-2.0+",
+        "Name": "System Monitor",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.8",
+        "Website": "http://plasma.kde.org/"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/Sysmon.qml",
+    "X-Plasma-StandAloneApp": true
+}
